@@ -29,6 +29,19 @@
           address {
               display: inline-block;
           }
+
+          .image-wrapper {
+		float: right;
+		padding-top: 15px;
+		margin-right: -25px;
+		width: 400px;
+		height: 250px;
+		overflow: hidden;
+  	  }
+        
+        .image-wrapper img {
+		width: 100%;
+	  }
           
         </style>
     </head>
@@ -41,7 +54,9 @@
             </p>
         </header>
         <figure>
-            <img src="PopeFrancisI2.jpg" alt="Pope Francis I" width="450" height="200" style="float: right; padding-top: 15px; margin-right: -25px;">
+            <div class="image-wrapper">
+                <img src="PopeFrancisI2.jpg" alt="Pope Francis I" width="450" height="auto">
+            </div>
         </figure>
         <article>
             <section>
